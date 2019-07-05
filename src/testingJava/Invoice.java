@@ -1,6 +1,7 @@
 package testingJava;
 
 import java.util.ArrayList;
+//import java.util.Arrays;
 
 public class Invoice {
 	private double discount = 0.2 ;
@@ -14,6 +15,15 @@ public class Invoice {
 	
 	
 	public double getDiscount() {
+		int res = 0;
+		for(int i = 0; i < item.size();i++) {
+			Item monItem = item.get(i);
+			monItem.getIsPet();
+			res += monItem.getQuantity();
+		}
+		
+		
+		
 		return discount;
 	}
 	
