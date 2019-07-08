@@ -19,7 +19,7 @@ public class Invoice {
 
 		// enhanced for loop
 		for (Item e : item) {
-			if (e.getIsPet() == true) { //c'est la le pb
+			if (e.getIsPet()== true) { //c'est la le pb
 				isPet = true;
 				petPrice = e.getPrice() * e.getQuantity();
 			} else {
@@ -28,7 +28,7 @@ public class Invoice {
 			}
 		} // for
 
-		if (isPet && totalQuantity >= 5) {
+		if (isPet == true && totalQuantity >= 5) {
 			return petPrice + otherPrice * 0.8;
 		} else {
 			return petPrice + otherPrice;
