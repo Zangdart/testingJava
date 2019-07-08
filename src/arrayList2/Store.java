@@ -2,6 +2,13 @@ package arrayList2;
 
 import java.util.ArrayList;
 
+/** 
+ * On va creer une classe Store qui aura une liste de Customer et aura des methodes pour ajouter des ventes et 
+ * afficher le nom du Customer avec le plus de ventes.
+ * 
+ * @author Davy Castanet 
+ * */
+
 public class Store {
 	// Store contient un ArrayList comme champs
 	ArrayList<Customer> list = new ArrayList<Customer>();
@@ -22,7 +29,7 @@ public class Store {
 	 * @return nameMax - le nom du customer avec le plus gros amount
 	 */
 	public String nameOfBestCustomer() {
-		ArrayList<String> names = new ArrayList<String>();
+		//ArrayList<String> names = new ArrayList<String>();
 
 		// variable pour avoir le plus gros amount des clients
 		double amountMax = 0;

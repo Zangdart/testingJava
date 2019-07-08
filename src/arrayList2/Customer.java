@@ -2,11 +2,10 @@ package arrayList2;
 
 /** 
  * On va creer une classe Customer avec un constructeur contenant un nom et une quantite.
- * On aura egalement des accesseurs pour chaque champs. 
+ * On aura egalement des accesseurs pour chaques champs. 
  * 
  * @author Davy Castanet 
  * */
-
 
 public class Customer {
 	String name;
