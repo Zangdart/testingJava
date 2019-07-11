@@ -12,7 +12,5 @@ public class Demo {
 		for(Person e:list) {
 			System.out.println(e);
 		}
-		
 	}
-
 }
