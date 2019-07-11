@@ -56,7 +56,7 @@ public class Invoice {
 			System.out.println("Quel est la quantite de l'item que vous voulez ajouter ?");
 			quantite = sc.nextInt();
 			System.out.println("Est ce un animal ? 0-oui 1-non ");
-			isPet = sc.nextInt() == 1;
+			isPet = sc.nextInt() == 0;
 			System.out.println("Avez-vous d'autre articles ? 0-oui 1-non");
 			done = sc.nextInt() == 1;
 
