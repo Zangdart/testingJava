@@ -24,5 +24,4 @@ public class Customer {
 		return amount; 
 	}
 	
-	
 }
